@@ -1,0 +1,108 @@
+
+
+/*********************************************************************************  
+*  * WEB222 – Assignment #4b  *  * I declare that this assignment is my own work in accordance with Seneca  * Academic Policy. 
+No part of this assignment has been copied manually or  
+* electronically from any other source (including web sites) or distributed to  * other students.  *  
+* Name: ____Rohil Khakhar__________________ Student ID: ___109270173___________ Date: ___25/03/18_____________  
+*  ********************************************************************************/ 
+
+
+
+
+.main-container{ /*select all elements present in the main container class*/
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.main-container nav{ /* Select all <nav> elements that are a child of an element with class “main-container” and adjust it’s size and position */
+    width: 30%;
+    float: left;
+}
+
+.main-container .main{ /*the main class inside the main container class*/
+    width: 70%;
+    float:right;
+}
+
+.main-container header{/*select the header element inside the main container*/
+
+    padding: 10px;
+    background-color: #eeeeee;
+    border-bottom: 1px solid #cccccc;
+    margin-bottom: 30px;
+}
+
+
+.main-container header h1{/*select the h1 element inside the header element inside the main container*/
+
+  width: 70%;
+  font-size: 24px;
+  float: right;
+  text-align: right;
+  margin-top: 10px;
+
+}
+
+.main-container footer{/*select the footer element inside the main-container class*/
+
+clear: both; /*positions the footer element (date) beneath the float elements*/
+padding: 20px 10px;
+background-color: #eeeeee;
+border-top: 1px solid #cccccc;
+font-size: 13px;
+}
+
+/*navigation styling*/
+
+#logo{ /*select all elements inside the logo id*/
+    width: 30%;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#logo img{ /* the img element inside this particular id*/
+    width: 94px;
+    vertical-align: middle;
+}
+
+nav ul{ /*the unordered listings inside the nav element*/
+list-style-type: armenian;
+}
+
+nav ul a{ /*specific to each <a> element inside the unordered list that is inside the nav*/
+    display: block;
+    text-decoration: currentColor;
+    padding: 5px;
+}
+ 
+/*last part- styling the province containers*/
+
+div.province{ /*select the province class as part of the div element. align the provinces*/
+    width: 30%;
+    float: left;
+    margin: 8px;
+    height: 310px;
+}
+
+div.province.description{/*the description class inside the province class*/
+max-height: 165px;
+overflow-y: scroll;
+overflow-x: hidden;
+margin: 8px 0;
+}
+
+div.province a { /*the anchor element inside the province class ('read more' section )*/
+display: block;
+text-align: center;
+background-color: #555555;
+color: #eeeeee;
+text-decoration-style: initial;
+padding: 5px;
+}
+
+img.flag{ /*the flag class inside the image element that deals with images of each province*/
+width: 100%;
+}
+
+
