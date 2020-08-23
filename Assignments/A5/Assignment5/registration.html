@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <title>Assignment5_Khakhar</title>
+            <meta charset="UTF-8">
+            <link rel="stylesheet" href="normalize1.css" type="text/css">
+            <script src="registration.js" type="text/js"></script>
+        </head>
+        <body>
+     <div class="content">    
+                <header class="intro">
+                    <h1>Introduce yourself to the Red Devils</h1>
+                </header>
+                <div class="menu">
+                    <aside>
+                        <nav>
+                            <ul>
+                                
+                              <li><a class="navigate" href="index.html">Back to Home</a></li>
+                              <li><a class="navigate" href="registration.html">Join The Reds</a></li>
+                                
+                            </ul>
+                        </nav>
+                    </aside>
+                </div>
+                <figure class="picture">        
+                    <img src="matic.jpg" style= "height:150px; width:250px;">    
+                </figure>
+        
+            <div class="box">
+                <h2><br> <br>Please fill out the following form</h3>
+                <h3><u>Signup</u></h3>
+                    <div class="FORM">
+                        <form id="details" action="https://httpbin.org/post" method="POST"  onsubmit="return formCheck();" >
+               
+                        First Name <input type="text" name="firstname" required="required" id="first" size="20" pattern="[A-Za-z\s]" placeholder="Your First Name"/><br><br>
+                        Last Name <input type="text" name="lastname" required="required" id="last" size="20" pattern="[A-Za-z\s]*" placeholder="Your Last Name" required ><br><br>
+                        <b>Address:</b> <br><br>
+                        St.Number <input type="text" name="add_no" required="required" id="add_no" placeholder="24" size="6" required>  
+                        &nbsp;&nbsp;&nbsp;  
+                        Street &nbsp; &nbsp;<input type="text" name="add_st" required="required" id="add_st" size="35" pattern="[A-Za-z\s]" placeholder="Letters ONLY" required> 
+                        &nbsp;&nbsp;&nbsp;  <!--space-->
+                        Apartment # &nbsp; &nbsp;<input type="text" name="add_apt" required="required" id="add_apt" size="6" placeholder="3" pattern="{1}[0-9]" ><br><br>
+                        
+                        City &nbsp; &nbsp; &nbsp; &nbsp;<input type="text" name="add_cty" required="required" id="add_cty" size="20" pattern="[A-Za-z\s]" placeholder="Letters ONLY" required>
+                        &nbsp;&nbsp;&nbsp;&nbsp;
+                        Province &nbsp; &nbsp;<select name="province"> <!--Drop Down List Enables by <select> tag-->
+                            <option value="Ontario">Ontario</option>
+                            <option value="Alberta">Alberta</option>
+                            <option value="British Colombia">British Colombia</option>
+                            <option value="Manitoba">Manitoba</option>   
+                            <option value="Newfoundland and Labrador">Newfoundland and Labrador</option>
+                            <option value="New Brunswick">New Brunswick</option>
+                            <option value="Northwest Territories">Northwest Territories</option>
+                            <option value="Nova Scotia">Nova Scotia</option>    
+                            <option value="Nunavut">Nunavut</option>            
+                            <option value="Prince Edward Island">Prince Edward Island</option>                
+                            <option value="Quebec">Quebec</option>
+                            <option value="Saskatchewan">Saskatchewan</option>
+                            <option value="Yukon">Yukon</option>
+                        </select>
+                       &nbsp; &nbsp; &nbsp;
+                      ZipCode &nbsp; &nbsp;<input type="text" name="zipcode" id="zcode" size="7" placeholder="eg- M2J5K3" required="required" pattern="^[A-Za-z][0-9][A-Z][0-9][A-za-z][0-9]$" required><br><br>
+                    Email &nbsp; &nbsp; <input type="email" name="mail" required="required" placeholder="rohilkhakhar@yahoo.com"><br><br>
+                    Phone &nbsp; &nbsp; <input type="tel" name="phone" id="phone" value="+1" required="required" pattern="^([0-9]{3}[-]){2}[0-9]{4}$"><br><br>               
+                    Username &nbsp; &nbsp; <input type="text" size="10" id="username" placeholder="username" required="required" onchange="unameCheck()" ><br><br>
+                    Password &nbsp; &nbsp; <input type="password" id="password" required="required" placeholder="password" size="10" onchange="passCheck()"> <br> <br>
+                    Retype Password<span>*</span> : <input type="text" name="repwrd" id="repwrd" required="required" size="15" onchange="rePassCheck()"><br><br>
+                    <input type="hidden" name="lastName" id="lastName" value="Khakhar" /> 
+                    <input type="hidden" name="studentId" id="studentId" value="109270173" />   
+                    <input type="submit" id="complete" value="Finish"> 
+                    <input type="reset" id="complete" value="Reset"> 
+                  
+                    <section class="side">
+                        <div > 
+                            <br>
+                            <p id= "errormessage">
+                            </p>
+                            <h3>Any errors will pop up here!!</h3>  
+                        </div>
+                    </section>
+
+                </form>
+                </div>
+                <div class="quote">
+                    <h2>"Manchester United are not just some club. To be part of this club also means to be part of a great history" <br><hr> Henrikh Mkhitaryan
+                        </h2>
+                </div>
+            </div>
+        
+        </body>
+    </div> 
+        <footer>
+            <h2>2018 Rohil Khakhar</h2>
+        </footer>
+        </html>

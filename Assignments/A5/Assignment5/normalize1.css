@@ -1,0 +1,157 @@
+
+ .one h1{
+     text-align: center;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     padding: 20px;
+     color: goldenrod;
+     background-size: auto;
+     /*background-image: url(united.jpg);*/
+     background-color: darkred;
+ }
+ 
+ .one h2{
+    color: white;
+    text-shadow: 5px 5px 5px red;
+    text-align: start;
+    border:10px solid darkred;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    padding: 200px;
+    background-image: url(alexis.jpg);
+}
+
+.two{
+    padding: 70px;
+    border:10px solid black;
+    background-image: url(manu.jpg);
+    color:white;
+    font-size: large;
+    font-style: italic;
+    font-variant: small-caps;
+    font-weight: bold;
+    background-repeat: no-repeat;
+}
+
+a.list{
+    color: white;
+}
+
+.list:link{
+float: left; /*shifts the bar to the left*/
+border-radius: 20px; /* ensures the curvy borders*/
+background-image: url(manu.jpg);
+margin-left: 10px; /*spacing between the two navigation bars*/
+width: 30%;
+font-style: italic;
+font-size: large;
+text-align: center;
+text-decoration: transparent;
+font-weight: bolder;
+text-transform: uppercase;
+}
+
+.container{
+    background-color: black;
+}
+
+footer h2{
+    padding: 20px;
+    background-color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 10px dashed darkred;
+    text-align: center;
+    color: darkred;
+}
+
+.intro {
+    padding: 20px;
+    color: goldenrod;
+    text-align: center;
+    background-color: darkred; 
+    background-size: auto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.picture img{
+    border-radius: 10px;
+    border: 10px solid black;
+    margin: 0 auto;
+    position: absolute; bottom:250px;left: 300px;right: 700px;
+}
+a.navigate:link{
+    float: left; /*shifts the bar to the left*/
+    border-radius: 20px; /* ensures the curvy borders*/
+    background-image: url(manu.jpg);
+    margin-left: 10px; /*spacing between the two navigation bars*/
+    width: 30%;
+    font-style: italic;
+    font-size: large;
+    text-align: center;
+    text-decoration: transparent;
+    font-weight: bolder;
+    text-transform: uppercase;
+    }
+    .content{
+        background-color: black;
+    }
+    .box{
+        color: lightgrey;
+        text-align: left;
+        font-style: italic;
+        background-image: url(manu.jpg);
+    }
+    .box h3{
+        text-align: left;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        margin-left: 20px;
+    }
+
+    a.navigate{ /*not the link, but the navigation button*/
+        color: white;
+    }
+   
+    .FORM{
+        background-image: url(manu.jpg);
+        margin-left: 20px;
+    }
+    
+    #complete{
+        margin-bottom: 20px;
+        margin-left: 10px;
+    }
+
+    .side{
+
+        float: right;
+        width:20%;
+        height:300px;
+        margin-right:10px;
+        background-color:white;
+        border-radius: 20px;
+        text-align: center;
+        color:darkred;
+        text-transform: uppercase;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        border:3px solid darkred;
+        bottom: 520px;
+        right:100px;
+        position: relative;
+        margin-bottom: 5px;
+    }
+
+    
+    .side div{
+       overflow: hidden; 
+       padding:5px 5px 5px 5px;
+    
+    }
+    
+.quote{
+    background-color: white;
+    padding:60px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: darkslategrey;
+    border-radius: 10px;
+}
+    
+    
